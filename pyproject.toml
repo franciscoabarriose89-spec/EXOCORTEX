@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exocortex"
+version = "0.1.0"
+description = "Kählerian Tensor Thermodynamics and AGI-safe computational substrate"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Francisco Amador Barrios Espinoza" }]
+license = { text = "MIT" }
+dependencies = ["numpy>=1.23"]
+
+[project.urls]
+Homepage = "https://example.invalid/exocortex"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

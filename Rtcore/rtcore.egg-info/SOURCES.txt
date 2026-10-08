@@ -1,0 +1,12 @@
+setup.py
+rtcore/__init__.py
+rtcore/engine.py
+rtcore/ingestion.py
+rtcore/math.py
+rtcore/render.py
+rtcore/topology.py
+rtcore.egg-info/PKG-INFO
+rtcore.egg-info/SOURCES.txt
+rtcore.egg-info/dependency_links.txt
+rtcore.egg-info/requires.txt
+rtcore.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: rtcore
+Version: 0.1.0
+Summary: Deterministic tensor and mesh processing utilities
+Author: Francisco Amador Barrios Espinoza
+Requires-Python: >=3.9
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: trimesh
+Requires-Dist: opencv-python
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
